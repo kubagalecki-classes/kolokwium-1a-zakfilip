@@ -11,6 +11,6 @@
 template<class T>
 void sortujTagliatelle(T a, T b)
 {
-	std::sort(A, B);
-	std::reverse(A, B);
+	std::sort(a, b);
+	std::reverse(a, b);
 }
