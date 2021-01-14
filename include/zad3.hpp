@@ -6,5 +6,5 @@
 template<class T>
 std::size_t polejSosem(const Tagliatelle& t, const T in)
 {
-	return T->polej(t);
+	return in.polej(t);
 }
