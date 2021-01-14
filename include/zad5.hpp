@@ -11,5 +11,6 @@
 template<class T>
 void sortujTagliatelle(T a, T b)
 {
-	std::sort(a, b, [](T c, T d) { return (c < d); });
+		std::sort(a, b, [](T c, T d) { return (c->ileMaki(1) < d->ileMaki(1)); });
+
 }
