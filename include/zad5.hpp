@@ -7,3 +7,10 @@
 #include <vector>
 
 // tutaj funkcja sortujTagliatelle
+
+template<class T>
+void sortujTagliatelle(T a, T b)
+{
+	std::sort(A, B);
+	std::reverse(A, B);
+}
